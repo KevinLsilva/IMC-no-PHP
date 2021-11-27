@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <style>
+        
+        label, input {
+	        width:150px;
+            margin: 1px;
+        }
+
+        label {
+	        display: block;
+            float: inherit;
+        }
+
+    </style>
+</head>
+
+<body>
+    <form method="POST" action="form2.php">
+
+        <h1>Formulário</h1>
+
+        <fieldset>
+            <label>Nome:</label>
+            <input type="text" name="nome"><br><br>
+        
+
+            <label>Idade: </label>
+            <input type="text" name="idade"><br><br>
+        
+
+            <label>Peso: </label>
+            <input type="text" name="peso"><br><br>
+        
+
+            <label>Altura: </label>
+            <input type="text" name="altura"><br>
+        </fieldset>
+
+            <br><input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
